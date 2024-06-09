@@ -12,15 +12,28 @@
 }    
 &__ficha-items{
     margin-top: 2rem;
+    border-radius: 10px;
+
+&__enviar{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    background-color: #A559FF;
+    color: white;
+}    
 }
 
 &__ficha-input{
     height:2rem;
     width: 20rem;
+    border-radius: 10px;
 }
 
 &__ficha-select{
     height: 2rem;
     width: 10rem;
+    border-radius: 10px;
 }
+
+
 }
