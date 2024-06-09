@@ -1,0 +1,26 @@
+.formulario {
+    background-color: #C3BEFF;
+    height: 40rem;
+    width: 60rem;
+    align-self: center;
+    
+&__ficha{
+    text-align: center;
+    height: 40rem;
+    
+ 
+}    
+&__ficha-items{
+    margin-top: 2rem;
+}
+
+&__ficha-input{
+    height:2rem;
+    width: 20rem;
+}
+
+&__ficha-select{
+    height: 2rem;
+    width: 10rem;
+}
+}
