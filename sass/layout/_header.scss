@@ -31,14 +31,20 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-    background-color: mediumaquamarine;
+    background-color: white;
+    height: 5rem;
     
+    &__logo-container { /* .search-bar__logo-container */
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+    }
 
     &__nav-list { /* .nav-bar__nav-list */
         display: flex;
         list-style-type: none;
-        justify-content: space-around;
-
+        justify-content: center;
+        
         @media (max-width: 768px) {
             & {
                 flex-direction: column;
@@ -48,7 +54,9 @@
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
         
         
         
@@ -56,9 +64,13 @@
 
     &__nav-link {
         display: block;
-        background-color: lightblue;
+        background-color: #A559FF;
         padding: 1rem 2rem;
         text-decoration: none;
+        border-radius: 10px;
+        height: 1.5rem;
+        padding-bottom: 2rem;
+        
         
     }
 
@@ -68,10 +80,7 @@
         }
     }
 
-    &__logo-container { /* .search-bar__logo-container */
-        width: 5rem;
-        height: 5rem;
-        
+   
 }
 
 /* -------------------------------------------------------- */
@@ -85,7 +94,7 @@
 
     
         
-    }
+    
 
     &__form-container {
        padding: 1rem;
@@ -114,8 +123,8 @@
         flex: 0 0 3rem; /* shorthand (grow shrink basis */
         background-color: goldenrod;
     }
-}
 
+}
 
 /* -------------------------------------------------------- */
 /* MENÚ TOOGLE */
