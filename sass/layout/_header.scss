@@ -88,7 +88,7 @@
 /* -------------------------------------------------------- */
 
 .search-bar {
-    background-color: olivedrab;
+    background-color: white;
     display: flex; 
     
 
@@ -100,28 +100,32 @@
        padding: 1rem;
 
        background-color: gold;
+       border-radius: 10px;
        display: flex;
        flex-basis: 100%;
        justify-content: center;
     }
 
     &__form-label {
-        background-color: greenyellow;
+        background-color: gold;
     }
 
     &__form-search {
-        background-color: deeppink;
+        background-color: papayawhip;
         width: 70%;
     }
 
     &__form-submit {
-        background-color: darkslategray;
+        background-color: #A559FF;
         color: white;
+        width: 10rem;
+        border-radius: 10px;
+        margin-left: 5px;
     }
     
     &__carrito-container {
         flex: 0 0 3rem; /* shorthand (grow shrink basis */
-        background-color: goldenrod;
+        background-color: white;
         position:initial;
         
         
