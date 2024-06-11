@@ -13,3 +13,26 @@
     margin-top: 5rem;
     
 }
+
+.whatsapp {
+    background-color: #25d366;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 55px;
+    height: 55px;
+    color: white;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-brands, fa-whatsapp{
+    font-weight: 400;
+}
+
+.fa-2xl {
+    font-size: 2em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+}
