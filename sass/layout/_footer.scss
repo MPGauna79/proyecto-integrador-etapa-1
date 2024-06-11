@@ -1,12 +1,47 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #FF7688;
+    align-items:flex-end;
+    background-color: #A559FF;
     height: 10rem;
+    
 
     @media (max-width: 768px) {
         & { /* .footer */
             flex-direction: column-reverse;
         }
     }
+
+&__siguenos {
+    margin-right: 10rem;
+}    
+
+
+&__siguenos__fb {
+    font-size: 30px;
+    color: blue;
+    margin-right: 5px;
+    
+}
+&__siguenos__tw {
+    font-size: 30px;
+    color: black;
+    margin-right: 5px;
+}
+
+&__siguenos__in {
+    font-size: 30px;
+    color: orangered;
+    margin-right: 5px;
+}
+
+&__siguenos__yt {
+    font-size: 30px;
+    color: red;
+}
+
+&__hr {
+    font-size: 10px;
+    color: black;
+}
 }
