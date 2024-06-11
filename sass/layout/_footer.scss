@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF7688;
+    height: 10rem;
+
+    @media (max-width: 768px) {
+        & { /* .footer */
+            flex-direction: column-reverse;
+        }
+    }
+}
